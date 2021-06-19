@@ -9,7 +9,7 @@ public class BaseClass {
 public static WebDriver driver;
  
 public static void getDriver() {
-	System.setProperty("webdriver.chrome.driver","C:\\Users\\NITHYA\\eclipse-workspace\\POM\\driver\\chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver","C:\\Users\\NITHYA\\eclipse-workspace\\POM\\driver\\chromedriver1.exe");
 	 driver=new ChromeDriver();
 	 driver.manage().window().maximize();
 	}
